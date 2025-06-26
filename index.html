@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Курс валют</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="input">
+    <h1>Введите значение</h1>
+    <input type="number" name="inputValue" id="inputValue" />
+    <h1 id="result">Сумма</h1>
+  </div>
+  <h1>Выберите валюту 1</h1>
+  <div class="convertFrom">
+    <input type="text" placeholder="USD" name="convertFrom" id="convertFrom" />
+    <button onclick="submit()">Подтвердить</button>
+  </div>
+  <h1>Выберите валюту 2</h1>
+  <div class="convertTo">
+    <input type="text" placeholder="EUR" name="convertTo" id="convertTo" />
+    <button onclick="convertValue()">Преобразовать</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
